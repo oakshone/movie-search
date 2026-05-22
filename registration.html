@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.20.0/dist/jquery.validate.min.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Account</h1>
+      <div>
+        <nav id="main-nav">
+          <button class="hamburger" id="hamburger" aria-label="Toggle navigation">&#9776;</button>
+          <div class="nav-links">
+            <a href="index.html">Movie Search</a>
+            <a href="#">About</a>
+            <a href="character.html">Characters</a>
+            <a href="registration.html">Account</a>
+            <a href="plan.html">Watchlist</a>
+          </div>
+        </nav>
+        <div id="form">
+          <form id="registration-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="zen" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required />
+            <label for="confirm-password">Confirm Password:</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm_password"
+              placeholder="Confirm your password"
+              required
+            />
+            <button type="submit">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/registration.js"></script>
+  <script src="js/nav.js"></script>
+</html>
